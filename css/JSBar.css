@@ -1,0 +1,23 @@
+.jsbar-wrapper { z-index:1001; left:0;  }
+.jsbar-container { border-left:none !important; border-right:none !important; padding:0 !important; table-layout:fixed; width:100%; color:#fff; }
+
+/* JS Bar Top*/
+.jsbar-wrapper.top {  position:fixed; top:0; }
+.jsbar-wrapper.top .jsbar-container { border-style:none none solid; border-bottom-color:#fff; }
+
+/* JS Bar Bottom*/
+.jsbar-wrapper.bottom { position :fixed; bottom:0; height: 43px; } 
+.jsbar-wrapper.bottom .jsbar-container { border-style:solid none none; border-top-width:3px; border-top-color:#fff; border-bottom: none !important; }
+
+.jsbar-center-text { text-align:center; }
+.jsbar-left-text-inner, .jsbar-center-text-inner { position:relative, overflow:hidden; }
+
+/* JS Bar close*/
+.jsbar-close { background: url('../img/minimize.png') no-repeat 0px center; width:18px; display:block; margin:0 auto; cursor:pointer; outline:none; border:none;}
+.jsbar-bottom { height: 4px; background: url('../img/bottom.png') repeat-x left bottom; }
+.jsbar-wrapper.bottom .jsbar-bottom { background-position:left top; }
+
+/* JS Bar Open Button */
+.jsbar-wrapper.top  .jsbar-open-button-container { position: fixed; }
+.jsbar-wrapper.bottom  .jsbar-open-button-container { position: fixed; }
+.jsbar-open-button{ background: url('../img/open-button.png') no-repeat; position: absolute; width: 32px; cursor: pointer; }
