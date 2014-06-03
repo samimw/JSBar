@@ -14,9 +14,9 @@ Configuration:
 
 1 - On your page add the following : 
 
-Add reference to Jquery library :jquery-1.11.1.min.js
-Add reference to JSBar : scripts/JSBar.1.0.js
-Add reference to stylesheet : css/JSBar.css
+	> Add reference to Jquery library :jquery-1.11.1.min.js
+	> Add reference to JSBar : scripts/JSBar.1.0.js
+	> Add reference to stylesheet : css/JSBar.css
 
 2 - initialize the plugin by : 
 
