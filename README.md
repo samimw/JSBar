@@ -14,23 +14,26 @@ Configuration:
 
 1 - On your page add the following : 
 
-Add reference to Jquery library : <script src="libs/jquery-1.11.1.min.js"></script>
-Add reference to JSBar : <script src="scripts/JSBar.1.0.js"></script>
-Add reference to stylesheet : <link rel="stylesheet" type="text/css" href="css/JSBar.css" />
+Add reference to Jquery library :jquery-1.11.1.min.js
+Add reference to JSBar : scripts/JSBar.1.0.js
+Add reference to stylesheet : css/JSBar.css
 
 2 - initialize the plugin by : 
 
-<script>
+
 $(function(){
 	$("body").JSBar();
 });
-</script>
+
 
 3 - You have the ablitiy to customize : 
 
-   > centertext - the text that appears in center section of bar.
    > lefttext - the text that appears in left section of bar.
+   
+   > centertext - the text that appears in center section of bar.
+   
    > background - the background color of the bar. (you can pass ascii color or normal color names)
+   
    > position - the page position of the bar e.g. top or bottom.
    
 To pass these parameters do :
